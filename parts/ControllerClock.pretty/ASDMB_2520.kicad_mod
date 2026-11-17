@@ -1,0 +1,17 @@
+(footprint
+  "ASDMB_2520"
+  (version 20241229)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "Abracon ASDMB recommended land pattern; 1.65mm columns, 0.70mm inner gap, 0.65x0.85mm lands")
+  (attr smd)
+  (property "Reference" "REF**" (at 0 -2.0) (layer "F.SilkS") (effects (font (size 1 1))))
+  (property "Value" "ASDMB_2520" (at 0 2.0) (layer "F.Fab") (effects (font (size 1 1))))
+  (fp_rect (start -1.25 -1.2) (end 1.25 1.2) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab"))
+  (fp_rect (start -1.5 -1.45) (end 1.5 1.45) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd"))
+  (fp_circle (center -0.825 1.375) (end -0.705 1.375) (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS"))
+  (pad "1" smd rect (at -0.825 0.775) (size 0.65 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "2" smd rect (at 0.825 0.775) (size 0.65 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "3" smd rect (at 0.825 -0.775) (size 0.65 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "4" smd rect (at -0.825 -0.775) (size 0.65 0.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

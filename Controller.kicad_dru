@@ -1,0 +1,15 @@
+(version 1)
+
+
+  (rule "DDR_BGA_Escape"
+    (condition "A.NetClass == 'DDR4_DATA' || A.NetClass == 'DDR4_ADDR' || A.NetClass == 'DDR4_STROBE' || A.NetClass == 'DDR4_CLK'")
+    (constraint clearance (min 0.1016mm)))
+
+  (rule "DDR_Zone_Clearance"
+    (condition "A.intersectsArea('DDR_Area')")
+    (constraint clearance (min 0.1016mm)))
+# Wuerth 9774025243R stock pattern: its unnetted solder ring meets the 3mm NPTH.
+# This does not relax clearances to any other footprint, track, via or zone.
+(rule "H7 manufacturer solder ring to own locating hole"
+  (condition "A.memberOfFootprint('H7') && B.memberOfFootprint('H7')")
+  (constraint hole_clearance (min 0mm)))

@@ -1,0 +1,14 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "2026-03-29_06-40-33") (type "KiCad") (uri "${KIPRJMOD}/parts/XCZU2CG_L1SFVC784I/KiCADv6/2026-03-29_06-40-33.kicad_sym") (options "") (descr ""))
+	(lib (name "XCZU2EG_functional") (type "KiCad") (uri "${KIPRJMOD}/parts/XCZU2EG_functional.kicad_sym") (options "") (descr "Functionally-organized XCZU2EG symbol from Xilinx pinout"))
+	(lib (name "MT40A1G16TB") (type "KiCad") (uri "${KIPRJMOD}/parts/MT40A1G16TB.kicad_sym") (options "") (descr "Micron DDR4 1Gb x16 96-ball BGA"))
+	(lib (name "MDT275M02001") (type "KiCad") (uri "${KIPRJMOD}/parts/MDT275M02001.kicad_sym") (options "") (descr "M.2 M-Key NVMe connector with signal names"))
+	(lib (name "SiT9102") (type "KiCad") (uri "${KIPRJMOD}/parts/SiT9102.kicad_sym") (options "") (descr "SiTime 100MHz PCIe reference clock oscillator"))
+	(lib (name "DisplayPort_Foxconn") (type "KiCad") (uri "${KIPRJMOD}/parts/DisplayPort_Foxconn.kicad_sym") (options "") (descr "Foxconn DisplayPort receptacle with signal names"))
+	(lib (name "HARTINGP60") (type "KiCad") (uri "${KIPRJMOD}/parts/HARTINGP60.kicad_sym") (options "") (descr ""))
+	(lib (name "ControllerClock") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerClock.kicad_sym") (options "") (descr "Project PCIe clock generator and crystal"))
+
+(lib (name "ControllerConnectors") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerConnectors.kicad_sym") (options "") (descr "Controller exact Hanrun connector"))
+	(lib (name "ControllerUSB") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerUSB.kicad_sym") (options "") (descr "Rev C USB: USB3320C PHY, USB5744 hub, AP2151W (KR260 topology)"))
+)

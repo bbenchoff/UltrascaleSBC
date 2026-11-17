@@ -1,0 +1,103 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "SiT9102"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Y"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SiT9102"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" "https://www.sitime.com/datasheet/SiT9102"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "100 MHz PCIe Reference Clock, HCSL/LVDS/LVPECL, 3.2x2.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_keywords" "oscillator PCIe HCSL differential 100MHz SiTime"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "SiT9102_0_1"
+			(rectangle
+				(start 7.62 2.54)
+				(end 27.94 -12.7)
+				(stroke (width 0.254) (type default))
+				(fill (type background))
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.62)
+				(name "OE"
+					(effects (font (size 1.27 1.27))))
+				(number "1"
+					(effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "GND"
+					(effects (font (size 1.27 1.27))))
+				(number "2"
+					(effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 35.56 0 180)
+				(length 7.62)
+				(name "OUT+"
+					(effects (font (size 1.27 1.27))))
+				(number "3"
+					(effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 35.56 -5.08 180)
+				(length 7.62)
+				(name "OUT-"
+					(effects (font (size 1.27 1.27))))
+				(number "4"
+					(effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "VDD"
+					(effects (font (size 1.27 1.27))))
+				(number "5"
+					(effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+)

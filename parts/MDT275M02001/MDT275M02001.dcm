@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDT275M02001
+D PCIe M.2 Connectors, Storage and Server Connector, P=0.5mm, H=2.75mm, Key M,15&mu;in Au Plating
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/mdtxxxxxx001.pdf
+$ENDCMP
+#
+#End Doc Library

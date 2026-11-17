@@ -1,0 +1,17 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/parts/easyeda2kicad.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/parts/footprints.pretty") (options "") (descr ""))
+	(lib (name "XCZU2CG-L1SFVC784I") (type "KiCad") (uri "${KIPRJMOD}/parts/XCZU2CG_L1SFVC784I/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "XCZU2CG_L1SFVC784I") (type "KiCad") (uri "${KIPRJMOD}/parts/XCZU2CG_L1SFVC784I.pretty") (options "") (descr ""))
+	(lib (name "MDT275M02001") (type "KiCad") (uri "${KIPRJMOD}/parts/MDT275M02001.pretty") (options "") (descr ""))
+	(lib (name "47272-0001") (type "KiCad") (uri "${KIPRJMOD}/parts/47272-0001/47272-0001.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/parts/47272-0001/47272-0001.pretty/Library.pretty") (options "") (descr ""))
+	(lib (name "47272") (type "KiCad") (uri "${KIPRJMOD}/parts/47272-0001/47272.pretty") (options "") (descr ""))
+	(lib (name "NexFET") (type "KiCad") (uri "${KIPRJMOD}/parts/NexFET.pretty") (options "") (descr ""))
+	(lib (name "HARTINGP60") (type "KiCad") (uri "${KIPRJMOD}/parts/HARTINGP60.pretty") (options "") (descr ""))
+	(lib (name "ControllerClock") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerClock.pretty") (options "") (descr "Project PCIe clock generator and crystal"))
+
+(lib (name "ControllerConnectors") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerConnectors.pretty") (options "") (descr "Controller exact Hanrun connector"))
+	(lib (name "ControllerUSB") (type "KiCad") (uri "${KIPRJMOD}/parts/ControllerUSB.pretty") (options "") (descr "Rev C USB footprints"))
+)
